@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Header</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <a class="logo">
+          <svg
+            fill="#000000"
+            viewBox="0 0 512 512"
+            xmlns="http://www.w3.org/2000/svg"
+            class="logo-icon"
+          >
+            <path
+              d="M112.31,268l40.36-68.69,34.65,59-67.54,115h135L289.31,432H16Zm58.57-99.76,33.27-56.67L392.44,432H325.76ZM222.67,80h66.59L496,432H429.32Z"
+            ></path>
+          </svg>
+          <span class="logo-text">Bitwise</span>
+        </a>
+
+        <div class="desktop-nav">
+          <nav>
+            <a class="nav-link">About Us</a>
+            <a class="nav-link">Blog</a>
+            <a class="nav-link">Pages</a>
+            <a class="nav-link">Contact Us</a>
+          </nav>
+          <button class="get-started-btn">Get Started</button>
+        </div>
+
+        <div class="mobile-nav-toggle" id="mobile-nav-toggle">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="2"
+            stroke="currentColor"
+            class="menu-icon"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M4 6h16M4 12h16m-7 6h7"
+            ></path>
+          </svg>
+        </div>
+      </div>
+    </header>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-nav" id="mobile-nav">
+      <div class="close-btn" id="close-btn">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke-width="2"
+          stroke="currentColor"
+          class="close-icon"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            d="M6 18L18 6M6 6l12 12"
+          ></path>
+        </svg>
+      </div>
+      <div class="mobile-logo">
+        <svg
+          fill="#000000"
+          viewBox="0 0 512 512"
+          xmlns="http://www.w3.org/2000/svg"
+          class="logo-icon"
+        >
+          <path
+            d="M112.31,268l40.36-68.69,34.65,59-67.54,115h135L289.31,432H16Zm58.57-99.76,33.27-56.67L392.44,432H325.76ZM222.67,80h66.59L496,432H429.32Z"
+          ></path>
+        </svg>
+      </div>
+      <nav class="mobile-nav-links">
+        <a href="/about" class="mobile-nav-link">About Us</a>
+        <a href="/blog" class="mobile-nav-link">Blog</a>
+        <a href="/pages" class="mobile-nav-link">Pages</a>
+        <a href="/contact" class="mobile-nav-link">Contact Us</a>
+      </nav>
+      <button class="get-started-btn">Get Started</button>
+    </div>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-logo">
+          <a class="logo">
+            <svg
+              fill="#000000"
+              viewBox="0 0 512 512"
+              xmlns="http://www.w3.org/2000/svg"
+              class="logo-icon"
+            >
+              <path
+                d="M112.31,268l40.36-68.69,34.65,59-67.54,115h135L289.31,432H16Zm58.57-99.76,33.27-56.67L392.44,432H325.76ZM222.67,80h66.59L496,432H429.32Z"
+              ></path>
+            </svg>
+            <span class="logo-text">Bitwise</span>
+          </a>
+          <p class="footer-description">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+          </p>
+        </div>
+
+        <div class="footer-nav">
+          <h4 class="footer-heading">Services</h4>
+          <nav class="footer-links">
+            <a href="#" class="footer-link">Web Development</a>
+            <a href="#" class="footer-link">Mobile App Development</a>
+            <a href="#" class="footer-link">UI/UX Design</a>
+            <a href="#" class="footer-link">Cloud Solutions</a>
+          </nav>
+        </div>
+
+        <div class="footer-nav">
+          <h4 class="footer-heading">Company</h4>
+          <nav class="footer-links">
+            <a href="#" class="footer-link">About Us</a>
+            <a href="#" class="footer-link">Careers</a>
+            <a href="#" class="footer-link">Blog</a>
+            <a href="#" class="footer-link">Contact Us</a>
+          </nav>
+        </div>
+
+        <div class="footer-subscribe">
+          <h4 class="footer-heading">Subscribe</h4>
+          <div class="subscribe-form">
+            <div class="inputGroup">
+              <input type="email" required autocomplete="off" />
+              <label for="footer-email">Email</label>
+            </div>
+            <button class="subscribe-button">Subscribe</button>
+          </div>
+          <p class="footer-description">
+            Stay updated with our latest news and offers.
+          </p>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2025 Bitwise. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script src="js/scripts.js"></script>
+  </body>
+</html>
