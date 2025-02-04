@@ -438,7 +438,6 @@ h3 {
   cursor: pointer;
   font-weight: 600;
   max-width: 200px;
-  margin-left: 20px;
   flex-shrink: 0;
 }
 
@@ -460,11 +459,10 @@ h3 {
 /* Floating label styles */
 .inputGroup {
   font-family: "Montserrat", sans-serif;
-  margin: 1em 0;
   position: relative;
-  max-width: 400px;
+  max-width: 300px;
   width: 100%;
-  margin: 0 auto;
+  margin-right: 20px;
 }
 .inputGroup input {
   font-size: 14px;
